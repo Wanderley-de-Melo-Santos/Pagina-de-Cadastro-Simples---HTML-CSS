@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url("../img/backgound1.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: contain;
+}
+#container {
+    border: 3px inset #151515;
+    width: 350px;
+    height: 420px;
+    margin: 100px auto 0px auto;
+    border-radius: 10%;
+    background-image: url("../img/background4.jpg");
+    text-align: center;
+}
+#container .logo {
+    margin-top: -85px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 3px inset #151515;
+    background-color: #ffffff;
+}
+#container form input {
+    border: 1px solid #000000;
+    width: 75%;
+    height: 30px;
+    color: #424242;
+    cursor: pointer;
+    margin: 7px
+}
+#container form .submit {
+    background: linear-gradient(to bottom, #0000FF, #0B0B61);
+    color: #ffffff;
+}
+#container form .submit:hover {
+    background: linear-gradient(to bottom, #0B0B61, #0000FF);
+}
+#container ul li {
+    display: inline;
+    padding: 0px 10px;
+    list-style: none;
+}
+.link_cadastro_login {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;    
+}
+.link_cadastro_login:hover {
+    color: #0000FF;
+}
